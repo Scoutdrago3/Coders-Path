@@ -46,7 +46,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <ul class="nav navbar-nav navbar-right">
                   <a type="button" class="btn btn-default navbar-btn" href="signin.php">Sign in</a>
                   <a type="button" class="btn btn-default navbar-btn" href="register.php">Register</a>
@@ -59,7 +59,6 @@
         </nav>
 
       </div>
-    </div>
 
 
     <!-- Carousel
@@ -131,7 +130,7 @@
           <img class="img-circle" src="icon_3.png" alt="Generic placeholder image" width="140" height="140">
           <h2>Have a class or hackathon to advertise?</h2>
           <p>We are constantly looking to add more classes and hackathons to ever growing list!  All it takes is a simple form and you immediately get your name out!</p>
-          <p><a class="btn btn-default" href="#" role="button">Click Here! &raquo;</a></p>
+          <p><a class="btn btn-default" href="event_registration.php" role="button">Click here to register your event! &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
