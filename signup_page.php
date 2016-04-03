@@ -14,7 +14,7 @@
 
 <div class="container">
   <h2>Create an Account</h2>
-  <form role="form">
+  <form role="form" action="sign-up_function.php" method="post">
     <div class="form-group">
       <label for="fname">First Name:</label>
       <input type="text" class="form-control" id="fname" placeholder="John" name="first_name" required>
@@ -39,12 +39,10 @@
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="john.doe@example.com" name="user_email" required title="Format: something@something.som">
     </div>
-    <?php if ((!preg_match('/@/', trim(stripslashes($_POST['user_email']))) or (!preg_match('/./', (trim(stripslashes($_POST['user_email']))){echo "Please use a correct email"} ?>
     <div class="form-group">
       <label for="emailConf">Confirm Email:</label>
       <input type="email" class="form-control" id="emailConf" placeholder="john.doe@example.com" name="user_email_conf" required>
     </div>
-    <?php if (trim(stripslashes($_POST['user_email'])) != trim(stripslashes($_POST['user_email_conf']))) {echo "Emails don't match!"} ?>
     <div class="form-group">
       <label for="pwd">Password:</label>
       <input type="password" class="form-control" id="pwd" placeholder="Password" name="user_password" required>
@@ -72,10 +70,4 @@
     <button type="submit" class="btn btn-primary">Register</button>
   </form>
     </body>
-<script>
-$( "#target" ).click(querry() {
-  alert( "Handler for .click() called." );
-});
-</script>
-
 </html>
