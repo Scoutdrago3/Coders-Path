@@ -14,22 +14,14 @@
 <div class="container">
   <h2>Create an Account</h2>
   <form role="form">
-    <div class="row form-inline">
-            <fieldset>
-                <div class="col-md-12">
-                    <label for="date">Date &amp; Time</label>
-                </div>
-                <div class="form-group">
-                    <input type="text" required="" class="form-control" placeholder="Enter a date" id="date" name="date">
-                </div>
-                <div class="form-group">
-                    <label for="time">@</label>
-                </div>
-                <div class="form-group">
-                    <input type="text" required="" class="form-control" placeholder="Enter a time" id="time" name="time">
-                </div>
-            </fieldset>
-        </div>
+    <div class="form-group">
+      <label for="fname">First Name:</label>
+      <input type="text" class="form-control" id="fname" placeholder="John">
+    </div>
+    <div class="form-group">
+      <label for="lname">Last Name:</label>
+      <input type="text" class="form-control" id="lname" placeholder="Doe">
+    </div>
     <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="john.doe@example.com">
