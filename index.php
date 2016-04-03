@@ -30,8 +30,8 @@
               <li><a href="#">Link</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <button type="button" class="btn btn-default navbar-btn" href="signin.php">Sign in</button>
-              <button type="button" class="btn btn-default navbar-btn" href="register.php">Register</button>
+              <a type="button" class="btn btn-default navbar-btn" href="signin.php">Sign in</a>
+              <a type="button" class="btn btn-default navbar-btn" href="register.php">Register</a>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
