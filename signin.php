@@ -15,6 +15,10 @@
   <h2>Create an Account</h2>
   <form role="form">
     <div class="form-group">
+      <div class="col-sm-3"><label>First name: </label><input type="text" class="form-control" placeholder="First"></div>
+      <div class="col-sm-3"><label>Last name: </label><input type="text" class="form-control" placeholder="Last"></div>
+    </div>
+    <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="john.doe@example.com">
     </div>
