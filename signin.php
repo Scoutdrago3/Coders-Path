@@ -16,16 +16,21 @@
   <form role="form">
     <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
+      <input type="email" class="form-control" id="email" placeholder="john.doe@example.com">
+    </div>
+    <div class="form-group">
+      <label for="emailConf">Confirm Email:</label>
+      <input type="email" class="form-control" id="emailConf" placeholder="john.doe@example.com">
     </div>
     <div class="form-group">
       <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+      <input type="password" class="form-control" id="pwd" placeholder="Password">
     </div>
-    <div class="checkbox">
-      <label><input type="checkbox"> Remember me</label>
+    <div class="form-group">
+      <label for="pwdConf">Password:</label>
+      <input type="password" class="form-control" id="pwdConf" placeholder="Password">
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-primary">Register</button>
   </form>
     </body>
 </html>
