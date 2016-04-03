@@ -7,7 +7,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="css/starStyle.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-kVo/Eh0sv7ZdiwZK32nRsp1FrDT3sLRLx3zVpSSTI9UdO5H02LJNLBg5F1gwvKg0" crossorigin="anonymous">
     </head>
     <body>
@@ -40,17 +39,21 @@
       <input type="password" class="form-control" id="pwdConf" placeholder="Password">
     </div>
     <div class="form-group">
-      <fieldset class="rating">
-        <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Pro Coder - 5 stars"></label>
-        <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Expert Hobbyist - 4.5 stars"></label>
-        <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty Good - 4 stars"></label>
-        <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Kinda Good - 3.5 stars"></label>
-        <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Dead Average - 3 stars"></label>
-        <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="A Little Bad - 2.5 stars"></label>
-        <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda Bad - 2 stars"></label>
-        <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Bad - 1.5 stars"></label>
-        <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Suck Really Bad - 1 star"></label>
-        <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Don't Know What A Computer Is - 0.5 stars"></label>
+      <fieldset>
+          <span class="">
+            <label for="rating">How Much Experience Do You Have? (1 being none, 10 being professional):</label>
+            <input type="radio" id="rating-10" name="rating" value="10" /><label for="rating-10">10</label>
+            <input type="radio" id="rating-9" name="rating" value="9" /><label for="rating-9">9</label>
+            <input type="radio" id="rating-8" name="rating" value="8" /><label for="rating-8">8</label>
+            <input type="radio" id="rating-7" name="rating" value="7" /><label for="rating-7">7</label>
+            <input type="radio" id="rating-6" name="rating" value="6" /><label for="rating-6">6</label>
+            <input type="radio" id="rating-5" name="rating" value="5" /><label for="rating-5">5</label>
+            <input type="radio" id="rating-4" name="rating" value="4" /><label for="rating-4">4</label>
+            <input type="radio" id="rating-3" name="rating" value="3" /><label for="rating-3">3</label>
+            <input type="radio" id="rating-2" name="rating" value="2" /><label for="rating-2">2</label>
+            <input type="radio" id="rating-1" name="rating" value="1" /><label for="rating-1">1</label>
+          </span>
+        </fieldset>
     </div>
     <button type="submit" class="btn btn-primary">Register</button>
   </form>
