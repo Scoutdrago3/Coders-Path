@@ -13,14 +13,14 @@
 
 <div class="container">
   <h2>Sign-in</h2>
-  <form role="form">
+  <form role="form" action="signin_function.php" method="post">
     <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="john.doe@example.com">
+      <input type="email" class="form-control" id="email" placeholder="john.doe@example.com" name="user_email" required>
     </div>
     <div class="form-group">
       <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Password">
+      <input type="password" class="form-control" id="pwd" placeholder="Password" name="user_password" required>
     </div>
     <button type="submit" class="btn btn-primary">Sign in</button>
   </form>
