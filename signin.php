@@ -40,7 +40,7 @@
     </div>
     <div class="form-group">
       <fieldset>
-          <span class="star-cb-group">
+          <span class="">
             <input type="radio" id="rating-10" name="rating" value="10" /><label for="rating-10">10</label>
             <input type="radio" id="rating-9" name="rating" value="9" /><label for="rating-9">9</label>
             <input type="radio" id="rating-8" name="rating" value="8" /><label for="rating-8">8</label>
